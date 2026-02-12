@@ -1,0 +1,73 @@
+Feature: Accettare i cookies
+
+Scenario: cliccare sul tasto accetta
+Given: l'utente si trova davanti al banner dei cookies
+When: l'utente clicca sul button accetta
+And: aspetta cinque secondi
+Then: il banner sui cookie dovrebbe sparire
+
+
+
+
+
+//
+//    public static void main(String[] args) throws Exception {
+//
+//        WebDriver driver = new ChromeDriver();
+//
+//        driver.get("https://www.lastampa.it/");
+
+//        driver.manage().window().maximize();
+
+
+//@When("l'utente clicca sul tasto accetta")
+//public void l_utente_clicca_sul_tasto_accetta {
+//
+//    }
+//
+//@And("Aspetta cinque secondi")
+//public void l_utente_aspetta_cinque_secondi {
+//
+//    }
+//
+//@Then("Il banner dovrebbe sparire")
+//public void il_banner_dovrebbe_sparire {
+//
+//    }
+//
+////@FindBy(xpath("//button[text()='Accetta']"))
+////
+////Thread.sleep(5000);
+//
+//@When("Click acceptButton")
+////
+////        System.out.println("start counting");
+//
+////        Thread.sleep(20000);
+//
+//
+//@FindBy(xpath("(//button/span[text() = 'Cerca']/ancestor::button)[2]"))
+//
+//@When("Click cercaButton")
+//
+//@FindBy(xpath("(//form/div/input)[1]"))
+//
+//@When("Click cercaNelSito")
+////
+////        cercaNelSito.sendKeys("Milano");
+////
+//@FindBy(xpath("//form[@method]//button[@type='submit']"))
+//
+//@When("Click inviaRicerca")
+//
+//        Thread.sleep(5000);
+
+//        System.out.println("benfayyo");
+//
+//        driver.quit();
+
+    }
+}
+
+}
+
